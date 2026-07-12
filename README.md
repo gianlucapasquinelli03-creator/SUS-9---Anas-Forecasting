@@ -118,8 +118,3 @@ Running every cell in order produces three submission files:
 ## Team
 
 Denise Brancaleone · Matías Cerda · Marco Restuccia · Gianluca Pasquinelli
-
-## License
-
-Released under the MIT License — see [LICENSE](LICENSE). The license covers the **code** in
-this repository only, not the competition data.
