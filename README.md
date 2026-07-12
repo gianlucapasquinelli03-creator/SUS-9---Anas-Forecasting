@@ -91,30 +91,6 @@ ours to publish. To reproduce the results you need the original files:
   `2025_tipologia_*` annual incident-type columns
 - `incidenti.xlsx` — accident data (optional enrichment)
 
-## How to reproduce
-
-The notebook was written and run on **Kaggle**, so file paths at the top of the notebook point
-to `/kaggle/input/...`. To run it elsewhere, edit the path cell (the block that defines
-`train_path`, `test_path`, `metadata_path`, `accidents_path`) to point at your local copies,
-then:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-jupyter lab                      # then run notebooks/three_catboost_submissions.ipynb top-to-bottom
-```
-
-Running every cell in order produces three submission files:
-
-- `submission_catboost_annual_calibrated.csv`
-- `submission_catboost_tipologia.csv`
-- `submission_ensemble_B75_C25.csv`  ← the final submission (public RMSLE 0.47927)
-
-> **Note:** these three variants use the 2024–2025 annual incident-type information from the
-> metadata. They reproduce the leaderboard submissions and are *not* the leakage-free
-> direct-forecasting baseline.
-
 ## Team
 
 Denise Brancaleone · Matías Cerda · Marco Restuccia · Gianluca Pasquinelli
