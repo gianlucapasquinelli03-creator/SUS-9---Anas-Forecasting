@@ -1,0 +1,28 @@
+# ---- Competition data (never commit) ----
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# ---- Model / submission artifacts ----
+submissions/
+*.cbm
+catboost_info/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Jupyter ----
+*.nbconvert.ipynb
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
