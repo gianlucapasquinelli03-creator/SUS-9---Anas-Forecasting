@@ -93,4 +93,4 @@ ours to publish. To reproduce the results you need the original files:
 
 ## Team
 
-Denise Brancaleone · Matías Cerda · Marco Restuccia · Gianluca Pasquinelli
+Denise Brancaleone · Matías Cerda · Gianluca Pasquinelli · Marco Restuccia
